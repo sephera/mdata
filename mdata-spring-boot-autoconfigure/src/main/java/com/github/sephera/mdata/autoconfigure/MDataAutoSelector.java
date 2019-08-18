@@ -7,12 +7,12 @@ import org.springframework.core.type.AnnotationMetadata;
 
 import javax.annotation.PostConstruct;
 
-public class MDataAutoConfiguration implements ImportSelector {
-    private static final Logger LOG = LoggerFactory.getLogger(MDataAutoConfiguration.class);
+public class MDataAutoSelector implements ImportSelector {
+    private static final Logger LOG = LoggerFactory.getLogger(MDataAutoSelector.class);
 
     @PostConstruct
     public void init() {
-        LOG.info("Initializing {}", MDataAutoConfiguration.class.getName());
+        LOG.info("Initializing {}", MDataAutoSelector.class.getName());
     }
 
     @Override

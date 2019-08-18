@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Configuration
-@Import(MDataAutoConfiguration.class)
+@Import(MDataAutoSelector.class)
 public @interface EnableMData {
 
     Class<?>[] basePackageClasses() default {};
