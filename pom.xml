@@ -8,6 +8,7 @@
     <name>mdata</name>
     <url>http://www.github.com/sephera/mdata</url>
     <packaging>pom</packaging>
+    <description>Multiple data source for spring boot auto configuration</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
